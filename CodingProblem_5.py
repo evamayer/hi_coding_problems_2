@@ -7,10 +7,10 @@ def prime_check(integer):
             return False
     
     return True
-           
-integer = int(input("Please enter an integer: "))
 
-if prime_check(integer):
-    print(integer, "is a prime number.")
-else:
-    print(integer, "is not a prime number.")
+if __name__ == "__main__":
+    integer = int(input("Please enter an integer: "))
+    if prime_check(integer):
+        print(integer, "is a prime number.")
+    else:
+        print(integer, "is not a prime number.")
